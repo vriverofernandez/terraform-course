@@ -9,6 +9,7 @@ resource "azurerm_virtual_network" "vnet" {
   address_space = ["10.0.0.0/16"]
 
   loquesea
+  o no
 
   tags = { env = "dev" }
   
