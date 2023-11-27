@@ -22,3 +22,17 @@ variable "nsg_name" {
   type = string
   description = "nombre del nsg"
 }
+
+variable "address_space" {
+  type = list(string)
+  description = "address space vnet"
+}
+
+variable "subnet_address_prefix" {
+  type = list(string)
+  description = "address space prefix subnet"
+}
+
+variable "tags" {
+  
+}

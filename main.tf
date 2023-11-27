@@ -13,7 +13,10 @@ module "vnet_test" {
   resource_group_name = var.resource_group_name
   subnet_name = var.subnet_name
   security_group = module.nsg_test.nsg_vaule_id
-
+  address_space = var.address_space
+  tags = var.tags
+  subnet_address_prefix = var.subnet_address_prefix
+  
 }
 
 module "nsg_test" {
