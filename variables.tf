@@ -17,3 +17,8 @@ variable "subnet_name" {
   type = list(string)
   description = "subnets name"
 }
+
+variable "nsg_name" {
+  type = string
+  description = "nombre del nsg"
+}
