@@ -16,7 +16,7 @@ module "vnet_test" {
   address_space = var.address_space
   tags = var.tags
   subnet_address_prefix = var.subnet_address_prefix
-  
+  subnets = var.subnets
 }
 
 module "nsg_test" {

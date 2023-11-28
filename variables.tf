@@ -36,3 +36,7 @@ variable "subnet_address_prefix" {
 variable "tags" {
   
 }
+
+variable "subnets" {
+  
+}
